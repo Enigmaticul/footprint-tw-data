@@ -3,7 +3,7 @@
   "symbol": "BTCUSDT",
   "exchange": "BINANCE",
   "timeframe": "15m",
-  "updatedAt": "2026-11-01T16:31:00Z",
+  "updatedAt": "2026-11-01T16:36:00Z",
   "zones": [
     {
       "id": "sync-test-77500",
@@ -13,7 +13,9 @@
       "label": "TEST SYNC — 77,500",
       "valueUsd": null,
       "note": "Zonă de test pentru verificarea sincronizării multi-user. Nu este semnal de tranzacționare.",
-      "enabled": true
+      "enabled": true,
+      "screen_y_pct": 72,
+      "screen_height_px": 28
     }
   ]
 }
