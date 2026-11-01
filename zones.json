@@ -1,21 +1,45 @@
 {
   "version": 1,
   "symbol": "BTCUSDT",
-  "exchange": "BINANCE",
-  "timeframe": "15m",
-  "updatedAt": "2026-11-01T16:36:00Z",
+  "exchange": "COINGLASS_AGG",
+  "timeframe": "ALL",
+  "updatedAt": "2026-11-01T18:19:00Z",
   "zones": [
     {
-      "id": "sync-test-77500",
-      "type": "BATTLE_LEVEL",
-      "price": 77500,
+      "id": "ask-78500-2484",
+      "type": "ASK_WALL",
+      "price": 78500,
       "status": "ACTIVE",
-      "label": "TEST SYNC — 77,500",
-      "valueUsd": null,
-      "note": "Zonă de test pentru verificarea sincronizării multi-user. Nu este semnal de tranzacționare.",
-      "enabled": true,
-      "screen_y_pct": 72,
-      "screen_height_px": 28
+      "valueUsd": 24840000,
+      "note": "Current ask wall visible on CoinGlass Futures Aggregate 1H.",
+      "enabled": true
+    },
+    {
+      "id": "ask-78350-3095",
+      "type": "ASK_WALL",
+      "price": 78350,
+      "status": "ACTIVE",
+      "valueUsd": 30950000,
+      "note": "Price inferred from chart scale; wall value is visible as $30.95M.",
+      "enabled": true
+    },
+    {
+      "id": "ask-78000-1607",
+      "type": "ASK_WALL",
+      "price": 78000,
+      "status": "ACTIVE",
+      "valueUsd": 16070000,
+      "note": "Current ask wall at 78,000. Wall Events also shows an earlier ask fill at 78,000 for $40.74M.",
+      "enabled": true
+    },
+    {
+      "id": "bid-77900-2314",
+      "type": "BID_WALL",
+      "price": 77900,
+      "status": "ACTIVE",
+      "valueUsd": 23140000,
+      "note": "Price inferred from chart scale; current bid wall value visible as $23.14M.",
+      "enabled": true
     }
   ]
 }
