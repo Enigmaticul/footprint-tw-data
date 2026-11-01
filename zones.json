@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "symbol": "BTCUSDT",
+  "exchange": "BINANCE",
+  "timeframe": "15m",
+  "updatedAt": "2026-11-01T16:31:00Z",
+  "zones": [
+    {
+      "id": "sync-test-77500",
+      "type": "BATTLE_LEVEL",
+      "price": 77500,
+      "status": "ACTIVE",
+      "label": "TEST SYNC — 77,500",
+      "valueUsd": null,
+      "note": "Zonă de test pentru verificarea sincronizării multi-user. Nu este semnal de tranzacționare.",
+      "enabled": true
+    }
+  ]
+}
